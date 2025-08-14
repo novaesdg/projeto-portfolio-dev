@@ -1,0 +1,79 @@
+footer {
+
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 128px 120px 200px;
+  flex-direction: column;
+  gap: 48px;
+  
+}
+
+#contact {
+
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  p:nth-child(1) {
+    font: var(--subtitle);
+    color: var(--purple);
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+
+  p:nth-child(3) {
+    font: var(--text-md);
+    color: var(--gray-200);
+  }
+
+}
+
+#social-media {
+
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#social-links {
+
+  flex-direction: column;
+  gap: 16px;
+
+  a:hover {
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+  }
+
+  a:hover img {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(7444%) hue-rotate(190deg);
+  }
+
+}
+
+#social-media-item {
+
+  background-color: var(--gray-400);
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 12px;
+  width: 400px;
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-200);
+    width: 100%;
+  }
+
+  img:hover {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(7444%) hue-rotate(190deg);
+
+  }
+
+}
